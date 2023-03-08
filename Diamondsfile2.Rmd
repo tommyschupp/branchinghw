@@ -1,0 +1,12 @@
+---
+title: "BranchHW"
+output: html_document
+date: "2023-03-08"
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
